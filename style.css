@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Indie Flower', cursive;
+    background: linear-gradient(#00B8A9,#a4dfda);
+    color: #F8F3D4;
+    text-align: center;
+}
+
+h1 {
+    font-family: Lobster;
+    font-size: 100px;
+    margin: 200px 0 50px 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.655);
+}
+
+h2 {
+    font-family: Lobster;
+    font-size: 150px;
+    padding-top: 50px;
+    margin: 0px 0 60px 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.655);
+}
+
+/*////////////////
+    DADOS
+///////////////*/
+
+.dados {
+    display: flex;
+    margin: auto;
+    font-size: 22px;
+}
+
+.dados-cont {
+    display: flex;
+    margin-bottom: 10px;
+}
+ 
+.player img {
+    width: 200px;
+    margin: 20px 20px 0 20px;
+    transition: 1s;
+}
+
+/*////////////////
+    BOTON
+///////////////*/
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #F6416C;
+    border-radius: 6px;
+    padding: 4px 8px;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.066);
+
+}
+
+.tirar {
+    margin-right: 10px;
+    margin-top: 2px;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.632);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.dos {
+    padding: 4px 16px;
+    margin-top: 16px;
+}
+
+.dos a {
+    color: #81ecba;
+    font-size: 40px;
+}
+
+.material-symbols-rounded {
+    font-size: 20px;
+    padding-top: 2px;
+}
+
+.volver {
+    border-radius: 50%;
+    padding: 4px 8px 0 8px;
+}
+
+/*////////////////
+    FOOTER
+///////////////*/
+
+footer {
+    margin-top: 80px;
+    display: flex;
+}
+
+.footer-link {
+    margin: auto;
+    display: flex;
+}
+
+footer a {
+    color: #4c4c4c;
+    text-decoration: none;
+    padding: 0 8px;
+    font-weight: 600;
+}
+
+/*////////////////
+    EFECTOS
+///////////////*/
+
+button:hover {
+    background-color: #e5375f;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}

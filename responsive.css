@@ -1,0 +1,35 @@
+
+@media (max-width: 890px) {
+    h2 {
+        font-size: 90px;
+    }
+    .player img {
+        width: 150px;
+        margin: 20px 20px 0 20px;
+    }
+    footer {
+        margin-top: 180px;
+        display: flex;
+    }
+}
+
+@media (max-width: 500px) {
+    h2 {
+        font-size: 50px;
+        padding-top: 100px;
+    }
+    .player img {
+        width: 120px;
+        margin: 20px 20px 0 20px;
+    }
+    footer {
+        margin-top: 200px;
+        display: flex;
+    }
+    .dados-cont {
+        margin-top: 120px;
+    }    
+    button a {
+        font-size: 14px;
+    }
+}
